@@ -1,0 +1,45 @@
+
+# 操作系统生成的文件
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Unity 生成的文件
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+
+# Visual Studio 生成的文件
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+
+# MonoDevelop 生成的文件
+*.userprefs
+
+# Rider 生成的文件
+.idea/
+*.sln.iml
+
+# 排除所有的 .meta 文件，但不排除根目录下的 .gitignore.meta
+**/*.meta
+!.gitignore.meta
+
+# 排除 Unity Package Manager 的锁定文件
+Packages-lock.json
+
+# 排除敏感配置文件
+*.sublime-workspace
